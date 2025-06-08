@@ -9,6 +9,23 @@ Before you start, make sure you have the following installed:
 - **Node.js** (version 18.x)
 - **pnpm** (package manager)
 
+### 📋 Essential Documentation
+
+**⚠️ IMPORTANT: Before proceeding with installation and setup, please review the documentation files in the `/README` directory.**
+
+These guides contain critical information for:
+- **[🔐 Authentication (Auth0)](./README/AUTH0.README.MD)** - User authentication setup
+- **[💳 Payments (Stripe)](./README/STRIPE.README.md)** - Payment processing configuration
+- **[📡 API Setup](./README/API.README.MD)** - API configuration and usage
+- **[📊 Monitoring (Sentry)](./README/SENTRY.README.md)** - Error tracking setup
+
+➡️ **[View complete documentation](./README/)**
+
+---
+
+*Following the documentation in the README directory will ensure a smooth setup process and help you avoid common configuration issues.*
+
+
 ### Installing Node.js
 
 If you don't have Node.js installed, you can download it from [nodejs.org](https://nodejs.org/).
@@ -20,12 +37,6 @@ To install `pnpm`, you can use npm (which is included with Node.js):
 ```bash
 npm install -g pnpm
 ```
-
-
-### Read Other README Files
-
-Before proceeding with the installation and setup of the main project, please ensure you read the specific README.md files located in the README directory. These files contain important information related to authentication, payment configuration, and other essential aspects of the application.
-
 
 ### Technology Stack
 
